@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Basics.Main.main(args);
+        Inheritance.Main.main(args);
     }
 }
