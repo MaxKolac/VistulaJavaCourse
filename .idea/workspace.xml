@@ -5,23 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b199c5c9-925a-45d0-9957-c695e277683c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Basics/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/Instructions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basics/VariableTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Blowfish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Instructions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Instructions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/VariableTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/VariableTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Blowfish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Blowfish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Mammal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Pigeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Pigeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -57,12 +64,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/ja/source/repos/Labyrinth"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ja\Documents\Semestr 3 - projekty\VistulaJavaCourse\src" />
+      <recent name="C:\Users\ja\Documents\Semestr 3 - projekty\VistulaJavaCourse\Loops" />
       <recent name="C:\Users\ja\Documents\GitHub\VistulaJavaCourse\src\Inheritance" />
     </key>
   </component>
@@ -87,5 +99,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
