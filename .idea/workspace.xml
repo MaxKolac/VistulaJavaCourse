@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b199c5c9-925a-45d0-9957-c695e277683c" name="Changes" comment="Ćwiczenia z 01.12.2022 - interfaces">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/NotEnoughMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/TemperatureChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ThreeNewExceptions/InvalidInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ThreeNewExceptions/ValueTooHighException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ThreeNewExceptions/ValueTooLowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ThrowNullPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ThrowTwoExceptions.java" afterDir="false" />
+    <list default="true" id="b199c5c9-925a-45d0-9957-c695e277683c" name="Changes" comment="Ćwiczenia z 09.12.2022 - exceptions/wyjątki">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VistulaJavaCourse/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VistulaJavaCourse/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669908457131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ćwiczenia z 09.12.2022 - exceptions/wyjątki">
+      <created>1670592274358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670592274358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +120,7 @@
     <MESSAGE value="Ćwiczenia z 25.11.22r." />
     <MESSAGE value="Pozostałe zmian z poprzednich ćwiczeń" />
     <MESSAGE value="Ćwiczenia z 01.12.2022 - interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ćwiczenia z 01.12.2022 - interfaces" />
+    <MESSAGE value="Ćwiczenia z 09.12.2022 - exceptions/wyjątki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ćwiczenia z 09.12.2022 - exceptions/wyjątki" />
   </component>
 </project>
