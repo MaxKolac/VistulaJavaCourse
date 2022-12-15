@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b199c5c9-925a-45d0-9957-c695e277683c" name="Changes" comment="Ćwiczenia z 09.12.2022 - exceptions/wyjątki">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/space-replacing-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/space-replacing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/textfile.txt" afterDir="false" />
+    <list default="true" id="b199c5c9-925a-45d0-9957-c695e277683c" name="Changes" comment="Ćwiczenia z 15.12.2022 - wejście/wyjście - zadania 1, 2 i 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VistulaJavaCourse/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VistulaJavaCourse/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670597776979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ćwiczenia z 15.12.2022 - wejście/wyjście - zadania 1, 2 i 3">
+      <created>1671118055544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671118055544</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +136,18 @@
     <MESSAGE value="Pozostałe zmian z poprzednich ćwiczeń" />
     <MESSAGE value="Ćwiczenia z 01.12.2022 - interfaces" />
     <MESSAGE value="Ćwiczenia z 09.12.2022 - exceptions/wyjątki" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ćwiczenia z 09.12.2022 - exceptions/wyjątki" />
+    <MESSAGE value="Ćwiczenia z 15.12.2022 - wejście/wyjście - zadania 1, 2 i 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ćwiczenia z 15.12.2022 - wejście/wyjście - zadania 1, 2 i 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/IO/Main.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

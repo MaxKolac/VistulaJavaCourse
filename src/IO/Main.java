@@ -1,6 +1,10 @@
 package IO;
 
 import java.io.*;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.*;
 
 public class Main {
     public static void main(String args[]){
@@ -9,7 +13,8 @@ public class Main {
         }
         catch (Exception ex){ }
         //Zadanie2();
-        Zadanie3();
+        //Zadanie3();
+        Zadanie5();
     }
 
     public static void Zadanie1() throws IOException {
@@ -89,29 +94,33 @@ public class Main {
 
     public static void Zadanie5() {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
-        int threeFirstDigits;
-        String database = "";
+        List<String> loadedData = new ArrayList<String>();
+        int threeFirstDigits = 0;
 
-        try (FileInputStream inputStream = new FileInputStream("https://ewib.nbp.pl/plewibnra?dokNazwa=plewibnra.txt")) {
+        try (InputStream inputStream = new URL("https://ewib.nbp.pl/plewibnra?dokNazwa=plewibnra.txt").openStream()){
+            StringBuilder loadedFile = new StringBuilder();
             int loadedByte;
             do {
                 loadedByte = inputStream.read();
-                database += (char)loadedByte;
+                loadedFile.append((char) loadedByte);
             }
             while (loadedByte != -1);
+            String[] tableOfBytes = loadedFile.toString().split("[\r\t\n]");
+            for (int i = 0; i < tableOfBytes.length; i++){
+                if (tableOfBytes[i] != ""){
+                    loadedData.add(tableOfBytes[i].replace(" ", ""));
+                }
+            }
         } catch (FileNotFoundException exception) {
             System.out.println("Nie znaleziono pliku.");
-            System.out.println(exception);
             exception.printStackTrace();
             return;
         } catch (IOException exception) {
             System.out.println("Błąd przy wczytywaniu pliku.");
-            System.out.println(exception);
             exception.printStackTrace();
             return;
         } catch (Exception exception) {
             System.out.println("Wystąpił nieznany błąd.");
-            System.out.println(exception);
             exception.printStackTrace();
             return;
         }
@@ -122,15 +131,22 @@ public class Main {
             System.out.print("Podaj trzy pierwsze cyfry jakiegoś konta: ");
             try {
                 threeFirstDigits = Integer.parseInt(input.readLine());
+            } catch (NumberFormatException exception) {
+                System.out.println("Podane dane nie są liczbami.");
+                correctInput = false;
             } catch (IOException exception) {
                 System.out.println("Wystąpił błąd przy odczytywaniu danych użytkownika.");
-                correctInput = false;
-            } catch (NumberFormatException exception) {
-                System.out.println("Podana dana nie jest liczbą.");
-                correctInput = false;
+                exception.printStackTrace();
+                return;
             }
         } while (!correctInput);
 
-
+        for (int i = 0; i < loadedData.size(); i++) {
+            if (loadedData.get(i).contains(Integer.toString(threeFirstDigits)) && loadedData.get(i).length() == 3){
+                System.out.println("Znaleziony numer: " + loadedData.get(i));
+                System.out.println("Bank: " + loadedData.get(i + 1));
+                return;
+            }
+        }
     }
 }
