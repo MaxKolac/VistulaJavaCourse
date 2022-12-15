@@ -4,6 +4,7 @@ public class Main {
         //Inheritance.Main.main(args);
         //Sorting.Main.main(args);
         //Interfaces.Main.main(args);
-        Exceptions.Main.main(args);
+        //Exceptions.Main.main(args);
+        IO.Main.main(args);
     }
 }

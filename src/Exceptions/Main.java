@@ -5,7 +5,7 @@ public class Main {
         //Zadanie1();
         //Zadanie2();
         //Zadanie3();
-        Zadanie4();
+        //Zadanie4();
     }
 
     public static void Zadanie1(){

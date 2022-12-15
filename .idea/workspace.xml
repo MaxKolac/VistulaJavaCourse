@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b199c5c9-925a-45d0-9957-c695e277683c" name="Changes" comment="Ćwiczenia z 09.12.2022 - exceptions/wyjątki">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/space-replacing-result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/space-replacing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/textfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VistulaJavaCourse/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VistulaJavaCourse/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670592274358</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ćwiczenia z 09.12.2022 - exceptions/wyjątki">
+      <created>1670597776979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670597776979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
